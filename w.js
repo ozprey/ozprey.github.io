@@ -42,11 +42,11 @@ let texty = gsap.timeline({
     //markers: { startColor: "brown", endColor: "brown", fontSize: "18px", fontWeight: "normal", indent: 90 }
   }
 })
-texty.from("#mmm", { opacity:0});
-texty.from("#dl", { opacity:0});
-texty.from("#hm", { opacity:0});
-texty.from("#bs", { opacity:0});
-texty.from("#tm", { opacity:0});
+texty.from("#mmm",{ opacity:0.5});
+texty.from("#dl", { opacity:0.5});
+texty.from("#hm", { opacity:0.5});
+texty.from("#bs", { opacity:0.5});
+texty.from("#tm", { opacity:0.5});
 
 
 
