@@ -1,0 +1,336 @@
+@media (orientation:landscape) {
+    body {
+        background-color: sandybrown;
+        display: none;
+    }
+}
+
+@media (orientation:portrait) {
+    @font-face {
+        font-family: rg;
+        src: url("rg.otf") format("opentype");
+    }
+
+
+    body {
+        width: 100vw;
+        height: 100vh;
+        color: ghostwhite;
+        background-color: #070700;
+        margin: 0;
+        padding: 0;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        overflow-x: hidden;
+        font-family: "Urbanist";
+    }
+
+   
+
+
+    /*TITLE SECTION*/
+    .g1 {
+        display: grid;
+        width: 100%;
+        height: 100vh;
+        grid-template-columns: 32% 36% 32%;
+        grid-template-rows: 10% 70% 20%;
+        overflow-x: hidden;
+    }
+
+    .g1f1,
+    .g1f3,
+    .g1f2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+        font-size: 2vw;
+        letter-spacing: 0.6vw;
+        font-weight: 600;
+        cursor: pointer;
+
+    }
+
+    .g1f4 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-end;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        justify-content: center;
+        align-items: center;
+        overflow-y: visible;
+    }
+
+    .g1f5 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        font-family: rg;
+        flex-wrap: wrap;
+        font-size: 15vw;
+        flex-grow: 500;
+
+
+    }
+    
+
+
+    /*ABOUT SECTION*/
+    .g2 {
+        display: grid;
+        grid-template-rows: 30% 20% 20% 10% 20%;
+        width: 100vw;
+        height: 100vh;
+
+    }
+
+    .g2f1,
+    .g2f2,
+    .g2f3,
+    .g2f4,
+    .g2f5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .g2f1 {
+        display: flex;
+        align-items: flex-end;
+        font-size: 5vw;
+        font-weight: 900;
+    }
+
+    .g2f2 {
+        display: flex;
+        font-family: rg;
+        font-size: 10vw;
+
+    }
+
+
+    .g2f3 {
+        display: flex;
+
+        font-family: rg;
+        font-size: 10vw;
+    }
+
+    .g2f4 {
+        display: flex;
+
+        font-size: 1.8vw;
+        font: weight 100;
+        letter-spacing: 2vw;
+    }
+
+    .g2f5 {
+        display: flex;
+        letter-spacing: 1vw;
+        font-weight: 800;
+
+    }
+
+    .tg2 {
+        opacity: 1;
+    }
+
+
+    /*CIRCLE SECTION*/
+
+    .f1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        flex-wrap: wrap;
+        overflow-x: hidden;
+    }
+
+    .cl {
+        width: 10vmax;
+        height: 10vmax;
+        border-radius: 50%;
+        background-color: ghostwhite;
+        
+
+    }
+
+
+
+    /*END SECTION*/
+
+    .g4 {
+        display: grid;
+        width: 100vw;
+        height: 100vh;
+        background-color: ghostwhite;
+        color: black;
+        grid-template-rows: 75% 20% 5%;
+    }
+
+    .g4f1,
+    .g4f2,
+    .g4f3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .g4f1 {
+        align-items: baseline;
+        overflow: visible;
+        z-index: 99;
+    }
+
+    .g4f2 {
+        align-items: flex-end;
+        font-family: rg;
+        letter-spacing: 2vw;
+    }
+
+    .g4f3 {
+        font-size: 1.3vw;
+        
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+
+    a:link {
+        color:black;
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    
+    /* MISCELLENAIOS */
+    .f2 {
+        position: absolute;
+        display: flex;
+        width: 100vw;
+        height: 100px;
+        background-color: transparent;
+        z-index: 999;
+        margin-top: -40%;
+        justify-content: center;
+    }
+
+    .f2e1 {
+        font-size: 10vw;
+        font-weight: 700;
+        letter-spacing: 2vw;
+        color: black;
+    }
+
+    #signature {
+        stroke: black;
+        scale: 1;
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: dash 10s linear  3;
+    }
+
+    @keyframes dash {
+        from {
+            stroke-dashoffset: 1000;
+        }
+
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+
+
+    /* INTRO */
+    .loader {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        z-index: 999;
+
+        .svg1 {
+            position: absolute;
+            margin: auto;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: transparent;
+            width: 50vw;
+        }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
