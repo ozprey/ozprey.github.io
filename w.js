@@ -22,7 +22,7 @@ let circle = gsap.timeline({
     end: "bottom center",
     scrub: 1,
     pin: ".f1",
-    //markers: { startColor: "black", endColor: "black", fontSize: "18px", fontWeight: "bold", indent: 20 }
+    markers: { startColor: "black", endColor: "black", fontSize: "18px", fontWeight: "bold", indent: 20 }
   }
 })
 circle.to(".cl", { scale: 18 });
