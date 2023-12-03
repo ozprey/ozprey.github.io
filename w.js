@@ -39,6 +39,7 @@ let texty = gsap.timeline({
     start: "center center",
     end: "bottom center",
     scrub: 1,
+    duration:1ms,
     //markers: { startColor: "brown", endColor: "brown", fontSize: "18px", fontWeight: "normal", indent: 90 }
   }
 })
