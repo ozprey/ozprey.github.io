@@ -12,7 +12,7 @@ gsap.to(".lpo",{
 //SCROLL REVEAL
 ScrollReveal().reveal('p',{delay:0,origin      : 'bottom',
 distance    : '10px',
-duration    : 1000,
+duration    : 500,
 opacity     : 0,
 easing      : 'linear',
 reset       : false
