@@ -10,7 +10,7 @@ gsap.to(".lpo",{
 }
 )
 //SCROLL REVEAL
-ScrollReveal().reveal('p',{delay:200,origin      : 'bottom',
+ScrollReveal().reveal('p',{delay:0,origin      : 'bottom',
 distance    : '10px',
 duration    : 1000,
 opacity     : 0,
@@ -37,16 +37,16 @@ let texty = gsap.timeline({
   scrollTrigger: {
     trigger: ".g2",
     start: "center center",
-    end: "center center",
+    end: "bottom center",
     scrub: 1,
     //markers: { startColor: "brown", endColor: "brown", fontSize: "18px", fontWeight: "normal", indent: 90 }
   }
 })
-texty.from("#mmm",{ opacity:0.5});
-texty.from("#dl", { opacity:0.5});
-texty.from("#hm", { opacity:0.5});
-texty.from("#bs", { opacity:0.5});
-texty.from("#tm", { opacity:0.5});
+texty.from("#mmm",{ color: ghostwhite});
+texty.from("#dl", { color:ghostwhite});
+texty.from("#hm", { color:ghostwhite});
+texty.from("#bs", { color:white});
+texty.from("#tm", { color:white});
 
 
 
