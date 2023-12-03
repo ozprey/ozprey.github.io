@@ -10,13 +10,15 @@ gsap.to(".lpo",{
 }
 )
 //SCROLL REVEAL
-ScrollReveal().reveal('p',{delay:0,origin      : 'bottom',
+ScrollReveal().reveal('p',{delay:200,origin      : 'bottom',
 distance    : '10px',
-duration    : 500,
+duration    : 1000,
 opacity     : 0,
 easing      : 'linear',
 reset       : false
 });
+
+
 
 // GSAP CIRCLE //
 let circle = gsap.timeline({
@@ -26,7 +28,7 @@ let circle = gsap.timeline({
     end: "bottom center",
     scrub: 1,
     pin: ".f1",
-    markers: { startColor: "black", endColor: "black", fontSize: "18px", fontWeight: "bold", indent: 20 }
+    //markers: { startColor: "black", endColor: "black", fontSize: "18px", fontWeight: "bold", indent: 20 }
   }
 })
 circle.to(".cl", { scale: 18 });
@@ -35,17 +37,16 @@ let texty = gsap.timeline({
   scrollTrigger: {
     trigger: ".g2",
     start: "center center",
-    end: "bottom center",
+    end: "center center",
     scrub: 1,
-    duration:1ms,
     //markers: { startColor: "brown", endColor: "brown", fontSize: "18px", fontWeight: "normal", indent: 90 }
   }
 })
-texty.from("#mmm",{ color: ghostwhite});
-texty.from("#dl", { color:ghostwhite});
-texty.from("#hm", { color:ghostwhite});
-texty.from("#bs", { color:white});
-texty.from("#tm", { color:white});
+texty.from("#mmm", { opacity:0});
+texty.from("#dl", { opacity:0});
+texty.from("#hm", { opacity:0});
+texty.from("#bs", { opacity:0});
+texty.from("#tm", { opacity:0});
 
 
 
