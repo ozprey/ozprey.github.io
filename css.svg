@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="70"
+   height="70"
+   version="1.1"
+   viewBox="0 0 300 300"
+   id="svg28"
+   sodipodi:docname="css.svg"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
+  <metadata
+     id="metadata32">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="690"
+     id="namedview30"
+     showgrid="false"
+     inkscape:zoom="3.6785714"
+     inkscape:cx="35"
+     inkscape:cy="35"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg28" />
+  <title
+     id="title2">SVG Logo</title>
+  <desc
+     id="desc4">Designed for the SVG Logo Contest in 2006 by Harvey Rayner, and adopted by W3C in 2009. It is available under the Creative Commons license for those who have an SVG product or who are using SVG on their site.</desc>
+  <defs
+     id="defs6" />
+  <g
+     transform="matrix(0.43207035,0,0,0.43207035,39.032852,44.557125)"
+     id="g26">
+    <polygon
+       points="74.633,100.62 437.37,100.62 404.32,470.82 255.78,512 107.64,470.88 "
+       style="fill:#000080"
+       id="polygon8" />
+    <polygon
+       points="256,480.52 376.03,447.25 404.27,130.89 256,130.89 "
+       style="opacity:0.994066;fill:#0000c2;fill-opacity:1"
+       id="polygon10" />
+    <polygon
+       points="256,268.22 150.31,268.22 154.38,313.63 256,313.63 "
+       style="fill:#dcdcdc;fill-opacity:1"
+       id="polygon12" />
+    <polygon
+       points="256,221.72 256,176.3 255.84,176.3 142.13,176.3 146.26,221.72 "
+       style="fill:#dcdcdc;fill-opacity:1"
+       id="polygon14" />
+    <polygon
+       points="256,386.15 255.8,386.21 205.23,372.55 201.99,336.33 177.42,336.33 156.41,336.33 162.77,407.63 255.79,433.46 256,433.4 "
+       style="fill:#dcdcdc;fill-opacity:1"
+       id="polygon16" />
+    <path
+       d="m 160,0 h 55 v 23 h -32 v 23 h 32 v 23 h -55 z"
+       id="path18"
+       style="fill:#000080" />
+    <path
+       d="m 226,0 h 55 v 20 h -32 v 4 h 32 V 70 H 226 V 49 h 32 v -4 h -32 z"
+       id="path20"
+       style="fill:#000080" />
+    <path
+       d="m 292,0 h 55 v 20 h -32 v 4 h 32 V 70 H 292 V 49 h 32 v -4 h -32 z"
+       id="path22"
+       style="fill:#000080" />
+    <polygon
+       points="348.94,407.63 349.62,399.96 360.29,280.41 361.4,268.22 369.6,176.3 255.84,176.3 255.84,221.72 319.83,221.72 315.7,268.22 255.84,268.22 255.84,313.63 311.76,313.63 306.49,372.52 255.84,386.19 255.84,433.44 "
+       style="fill:#dcdcdc;fill-opacity:1"
+       id="polygon24" />
+  </g>
+</svg>
