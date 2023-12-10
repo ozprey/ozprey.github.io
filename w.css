@@ -1,3 +1,4 @@
+@media (orientation:portrait) {
 @font-face {
   font-family: tilt;
   src: url("Tilt.ttf") format("truetype");
@@ -304,4 +305,5 @@ grid-template-columns: repeat(3,1fr);
 
 .cnty{
   opacity: 0;
+}
 }
