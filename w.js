@@ -4,7 +4,6 @@ document.getElementById("toggle").addEventListener("click", function() {
   
     document.getElementById("menu").style.display =(document.getElementById("menu").style.display === "block") ? "none" : "block";
     document.getElementById("ttx").style.display =(document.getElementById("ttx").style.display === "none") ? "block" : "none";
-
   
   });
 //
