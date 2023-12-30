@@ -188,15 +188,11 @@ div.tagg{
   align-items: flex-start;
   justify-content: space-around;
     }
-  .ppp{
-    cursor: pointer;
-  }
-  .ppp:hover{
-    
-    transition: scale(2);
-  }
+ 
+  
 .ppp{
-  color: grey;
+  color: silver;
+cursor: pointer;
 }
 
     a:link {
