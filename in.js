@@ -9,7 +9,19 @@ ScrollReveal().reveal('.di', { delay: 1000 });
 
 
 // GSAP
-
+gsap.to(".spn",{
+  duration:3,
+  scale:1.1,
+  color:'grey',
+  repeat:-1,
+  yoyo:true,
+  stagger: {
+    each:0.5,
+    from: "center",
+  }
+}
+)
+//////
 gsap.registerPlugin(TextPlugin)
 //replaces yourElement's text with "This is the new text" 
 gsap.to("#c3", {
@@ -49,33 +61,11 @@ gsap.to("#c6", {
       //markers: { startColor: "white", endColor: "white", fontSize: "18px", fontWeight: "bold", indent: 20 }
     }
   })
-  circle.from(".tagline", { scale: 1,translateX:-500, opacity:0, color:'blue' });
+  circle.from(".tagline", { scale: 1,translateX:-500, opacity:0, color:'magenta' });
 
 
 
 
 
 
-  //textillate
-
-  $('#myname').textillate({ 
-    autoStart: true,
-    loop: true,
-    in : { effect: 'flash', shuffle: true , 
-    delayScale: 1.5, 
-    delay: 100},
-    out : { effect: 'flash',shuffle: true }
-});
-
-  $('.spn').textillate({ 
-    autoStart: true,
-    loop: true,
-    minDisplayTime: 7000,
-    initialDelay: 50,
-    in : { effect: 'bounceInRight', shuffle: true , 
-    delayScale: 1.5, 
-    delay: 100},
-    out : { effect: 'bounceOutLeft',shuffle: true }
-});
-
-
+  
