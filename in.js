@@ -1,10 +1,3 @@
-new Vivus('svgsign', { start: 'inViewport', type: 'sync', delay:100, duration: 150});
-new Vivus('shapi', { start: 'inViewport', type: 'sync', duration: 200});
-
-
-ScrollReveal().reveal('#myname');
-ScrollReveal().reveal('.tagg');
-ScrollReveal().reveal('.di', { delay: 1000 });
 
 
 
