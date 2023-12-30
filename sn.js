@@ -21,7 +21,7 @@ let currentMode = 1;
     const mnd = document.getElementById('mainpage');
     const pt = document.querySelector('.moon');
     const pp = document.querySelector('.ppp');
-    pp.style.color="navy";
+    pp.style.color="magenta";
     
 
     toggleElement.addEventListener('click', toggleMode);
@@ -75,7 +75,7 @@ observer.observe(target);
 function handleVisibility(isVisible) {
   if (isVisible) {
     console.log("Target Element is visible");
-    target.style.opacity = 1;
+    target.style.opacity = 0.8 ;
     window.addEventListener('scroll', function () {
       // Change the scroll speed factor for each element
       const sc = window.scrollY;
