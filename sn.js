@@ -4,7 +4,7 @@ window.addEventListener('scroll', function () {
   var npn = this.document.querySelector('#myname');
   // Apply the transform with different speed factors
 
-  npn.style.transform = `translateY(-50%) translateY(${sc * 0.5}px)`;
+  npn.style.transform = `translateY(-50%) translateY(${sc * 0.4}px)`;
   console.log('DRA');
 });
 
