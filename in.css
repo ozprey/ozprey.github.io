@@ -6,10 +6,7 @@
 
 @media (orientation:portrait) {
 
-  @font-face {
-    font-family: tilt;
-    src: url("Tilt.ttf") format("truetype");
-  }
+  
 body {
     background-color: black;
     color: magenta;
@@ -18,6 +15,7 @@ body {
     scroll-behavior: smooth;
     font-family: 'Share Tech Mono', monospace ;
     overflow-x: hidden;
+   
   }
 
 .hdr{
@@ -26,7 +24,6 @@ body {
     grid-template-rows: 25% 75%;
     width:100% ;
     height: 30vh;
-    color: silver;
     opacity: 0.8;
 .menu{
   display: flex;
@@ -39,11 +36,14 @@ body {
   cursor: pointer;
 }
 }
+path{
+  stroke: magenta;
+}
 #sign{
     display: flex;}
 .sgn{
     
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
     margin: auto;
 }
   /*      TEXT FIELD      */
@@ -63,10 +63,12 @@ div.my{
 #myname{
   
   position: absolute;
-  color: silver;
+  color: magenta;
+  filter: invert(50%);
     font-size: 3.5vw;
     right: 25vw;
     top: 0;
+    scroll-behavior: smooth;
 }
 div.tagg{
   display: flex;
@@ -81,7 +83,7 @@ div.tagg{
   position: absolute;
   font-family: 'Share Tech Mono', monospace ;
   color: gray;
-    font-size: 8vw;
+    font-size: 6vw;
     font-weight:lighter;
     left: 5vw;
     opacity: 1;
@@ -116,8 +118,10 @@ div.tagg{
   font-family: "Poppins";
     letter-spacing: 2vw;
     font-weight: 900; 
-    -webkit-text-stroke: 2px silver;
-    -webkit-text-fill-color: black;
+    -webkit-text-stroke: 2px ;
+    filter: hue-rotate(270deg);
+
+    -webkit-text-fill-color: rgba(0, 0, 0, 0);
   }
   
   #c2 {  grid-area: 3 / 1 / 9 / 2;}
@@ -147,7 +151,8 @@ div.tagg{
     letter-spacing: 2.5vw;
     font-weight: 900;
   font-family: "Lexend";
-    -webkit-text-stroke: 2px silver;
+    -webkit-text-stroke: 2px ;
+    filter: hue-rotate(270deg);
     -webkit-text-fill-color: black;
    
   }
@@ -183,22 +188,25 @@ div.tagg{
   align-items: flex-start;
   justify-content: space-around;
     }
-  .ins{
+  .ppp{
     cursor: pointer;
   }
-  .ins:hover{
-    color: ghostwhite;
+  .ppp:hover{
+    
     transition: scale(2);
   }
-
+.ppp{
+  color: magenta;
+}
 
     a:link {
-        color:magenta;
+        
         background-color: transparent;
         text-decoration: none;
+        
     }
     a:visited {
-      color:indigo;
+      color: slategray;
       background-color: transparent;
       
   }
