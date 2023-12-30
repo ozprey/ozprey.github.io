@@ -20,7 +20,9 @@ let currentMode = 1;
     const toggleElement = document.getElementById('mode');
     const mnd = document.getElementById('mainpage');
     const pt = document.querySelector('.moon');
-    
+var elements = document.querySelectorAll('.ppp');
+    elements.forEach(function(element) {
+        element.style.color = 'magenta';
     
 
     toggleElement.addEventListener('click', toggleMode);
@@ -33,29 +35,36 @@ let currentMode = 1;
                 document.body.style.backgroundColor = "gainsboro";
                 document.body.style.color = "navy";
                 pt.style.stroke = "navy";
-                
-
-                
+      
+       elements.forEach(function(element) {
+        element.style.color = 'navy';
+             
 
                 // Add functionality for Mode 1
                 break;
             
-            case 2:
-                toggleElement.textContent = 'DARKSPACE';
-                toggleElement.style.color="magenta";
-                document.body.style.backgroundColor = "black";
-                document.body.style.color = "magenta";
-                pt.style.stroke = "magenta";
-                
-                // Add functionality for Mode 3
-                break;
-
-    case 3:
+            
+    case 2:
                 toggleElement.textContent = 'GOLD';
                 toggleElement.style.color="gold";
                 document.body.style.backgroundColor = "darkred";
                 document.body.style.color = "gold";
                 pt.style.stroke = "gold";
+                
+elements.forEach(function(element) {
+        element.style.color = 'gold';
+                    // Add functionality for Mode 3
+                break;
+
+case 3:
+                toggleElement.textContent = 'DARKSPACE';
+                toggleElement.style.color="magenta";
+                document.body.style.backgroundColor = "black";
+                document.body.style.color = "magenta";
+                pt.style.stroke = "magenta";
+elements.forEach(function(element) {
+        element.style.color = 'magenta';
+    
                 
                 // Add functionality for Mode 3
                 break;
