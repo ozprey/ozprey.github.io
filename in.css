@@ -208,7 +208,7 @@ cursor: pointer;
 
 
 }
-@media (orientation: landscape) {
+@media (orientation: landscape),(820px <= width) {
     body {
       background-color: rgb(24, 24, 51);
     }
