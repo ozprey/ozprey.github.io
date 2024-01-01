@@ -208,7 +208,7 @@ cursor: pointer;
 
 
 }
-@media (orientation: landscape),(820px <= width) {
+@media (orientation: landscape) and (820px <= width) {
     body {
       background-color: rgb(24, 24, 51);
     }
@@ -229,6 +229,10 @@ cursor: pointer;
   }
 
   }
+@media (orientation: landscape) and (820px <= width) {
+    body {
+      display: none;
+    }
 
 
 
