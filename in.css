@@ -208,31 +208,7 @@ cursor: pointer;
 
 
 }
-@media (orientation: landscape) and (820px <= width) {
-    body {
-      background-color: rgb(24, 24, 51);
-    }
-    .hdr{
-    grid-template-rows: 50% 50%;
-      height: 15vh;  
-  }
-  .menu{
-    font-size: 1.2vw;
-    letter-spacing: 0.2vw;
-  }
-  .sgn{
-       width: 40vw;
-  }
-  #sign{
-    height: 85vh;
-    align-items: center;
-  }
 
-  }
-@media (orientation: landscape) and (820px >= width) {
-    body {
-      display: none;
-    }
 
 
 
