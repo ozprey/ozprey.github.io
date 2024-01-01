@@ -1,10 +1,3 @@
-@media (orientation: landscape) {
-  body {
-    display: none;
-  }
-}
-
-@media (orientation:portrait) {
 
   
 body {
@@ -42,7 +35,7 @@ path{
 #sign{
     display: flex;}
 .sgn{
-    
+        width: 50vw;
     background-color: rgba(0, 0, 0, 0);
     margin: auto;
 }
@@ -215,3 +208,32 @@ cursor: pointer;
 
 
 }
+@media (orientation: landscape) {
+    body {
+      background-color: rgb(24, 24, 51);
+    }
+    .hdr{
+    grid-template-rows: 50% 50%;
+      height: 15vh;  
+  }
+  .menu{
+    font-size: 1.2vw;
+    letter-spacing: 0.2vw;
+  }
+  .sgn{
+       width: 40vw;
+  }
+  #sign{
+    height: 85vh;
+    align-items: center;
+  }
+
+  }
+
+
+
+
+
+
+
+
