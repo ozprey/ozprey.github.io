@@ -573,9 +573,9 @@ ellipse{
 
 @media (prefers-color-scheme: dark){
     :root {
-        --color: rgb(30,30,30);
-        --bcolor: deepskyblue;
-        --text-color: cornsilk;
+        --color: deeppink;
+        --bcolor: navy;
+        --text-color: mintcream;
     
     }
 }
