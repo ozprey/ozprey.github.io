@@ -504,6 +504,14 @@ li {
     filter: invert(10%);
 
 }
+.mp:nth-child(2){
+   opacity:0.7;
+}
+
+.mp:last-child{
+   opacity:1;
+filter:invert(20%);
+}
 
 .xp{
     transform: translateX(12.5vmin);
