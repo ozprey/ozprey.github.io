@@ -159,7 +159,7 @@ a:visited{
     display: none;
     position: absolute;
     color: var(--text-color);
-    right: 1vmin;
+    right: 5vmin;
     top: 15vmin;
     justify-content: left;
     align-items: baseline;
