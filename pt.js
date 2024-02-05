@@ -102,12 +102,12 @@ contra.addEventListener('click', toggleMode);
 function toggleMode() {
   switch (currentMode) {
     case 1:
-       contra.style.transform="rotateZ(135deg)";
-       contra.style.fill="var(--text-color)";
+       contra.style.transform="scale(1.2)";
+       contra.style.color="var(--text-color)";
        document.querySelector(".mbz").style.display="block";
       break;
     case 2:
-      contra.style.transform="rotateZ(0deg)";
+      contra.style.transform="scale(1.2)";
       contra.style.fill='var(--color)';
       document.querySelector(".mbz").style.display="none";
 
