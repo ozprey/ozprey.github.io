@@ -136,9 +136,12 @@ a:visited{
 
 #menulogo {
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 5vmin;
+    top: 5vmin;
+    font-family: rg;
+    font-size: 2.5vmin;
     background-color: transparent;
+    cursor: pointer;
 }
 
 
@@ -172,8 +175,6 @@ a:visited{
     margin-top: 5vmin;
     letter-spacing: 0.5vmin;
     cursor: pointer;
-    
-
 }
 
     
